@@ -43,3 +43,33 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
+
+
+
+
+A principio utilizei o terminal GNU nano 6.3
+
+repositorio local
+comando "ls" para se localizar
+comando "cd " para ir abrindo os diretorios ate o local desejado
+comando "mkdir " criar pasta
+comando "touch " criar arquivo
+comando "nano " abrir arquivo
+
+
+
+
+comando utilizados no git
+git config --global user.name
+git config --global user.email
+git add
+git commit
+git status
+git log
+git remote add origin
+git push
+
+git fetch (em outra maquina)
+git branch (foi utilizado tambem para criar uma ramificacao do trabalho)
+git checkout
+git merge
