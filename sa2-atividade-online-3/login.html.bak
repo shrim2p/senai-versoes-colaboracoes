@@ -1,0 +1,125 @@
+<!Doctype HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> GGstore </title>
+	<link rel="icon" href="img/controller.png" type="image/png" sizes="1em">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-5.0.0-beta2/dist/css/bootstrap.min.css"> -->
+	<!-- NAO FOI UTILIZADO BOOTSTRAP NESTA TAREFA> -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<style>
+</style>
+<script>
+</script>
+<body>
+<div>
+<div>	
+<header>
+	<div id="header">
+		<div class="boxHeader" style="width:20%">
+			<a href="index.html"><img class="logo btn" src="img/common/logo.svg" alt="GGstore"></a>
+		</div>
+		<div class="boxSearch" style="width:60%;padding:30px 0px">
+				
+				<form action="#">
+					<div class="dropdown">
+						<input type="image" class="buttonMenu btn" src="img/common/menuLogo.svg">
+							<div class="dropdown-content">
+								<a href="https://www.google.com.br">CPU</a>
+								<a href="https://www.google.com.br">Mother-Board</a>
+								<a href="https://www.google.com.br">Graphic-Card</a>
+								<a href="https://www.google.com.br">RAM</a>
+								<a href="https://www.google.com.br">HD/SSD/NvMe</a>
+								<a href="https://www.google.com.br">Power-Supply</a>
+								<a href="https://www.google.com.br">Keyboard/Mouse</a>
+								<a href="https://www.google.com.br">Case</a>
+								<a href="https://www.google.com.br">Monitor/TV</a>
+								<a href="https://www.google.com.br">Smartphone</a>
+								<a href="https://www.google.com.br">Tablet</a>
+								<a href="https://www.google.com.br">Chair</a>
+							</div>
+					</div>
+					<label for="search"></label>
+					<input type="text" id="search" name="search" placeholder="Search.." class="boxSearch2">
+					<button type="submit" class="buttonSearch btn"><img src="img/common/searchLogo.svg">
+				</form>
+		</div>
+		<div class="boxHeader" style="width:20%">
+			<a href="index.html"><img class="logoLogin btn" src="img/common/loginLogo.svg" alt="Login"></a>
+			<a href="index.html"><img class="logoCart btn" src="img/common/cartLogo.svg" alt="Cart"></a>	
+		</div>
+		<div class="boxDirectory diretory">
+			<a class="diretory">
+				<a class="txtDirectory" href="index.html">Home</a>
+				<a class="txtDirectory" href="login.html">> Login</a>
+				<a class="txtDirectory" href="https://www.google.com.br">> Google Test</a>
+			</a>
+		</div>
+	</div>
+	
+</header><br>
+</div>
+</div>
+<main>
+	<div class="boxLogin">
+		<p class="txt">FAÇA SEU LOGIN</p><br>
+		<form action="https://www.google.com.br">
+			<label for="email"></label>
+			<input type="text" class="input" id="email" name="email" placeholder="...insira seu email/CPF/CNPJ"><br>
+			<label for="pwd"></label>
+			<input type="password" class="input" id="pwd" name="pwd" minlenght="8" placeholder="...insira sua senha"><br>
+			<input type="image" class="buttonEnter btn2" src="img/login/buttonEnter.svg">
+			<a class="txt1" href="https://www.google.com.br">Esqueceu a senha?</a><br>	
+		</form>
+		<p class="txt">PRIMEIRA VEZ?</p><br>
+		<a href="https://www.google.com.br"><img class="buttonRegister btn2" src="img/login/buttonRegister.svg"></a><br>
+		<p class="txt3">OU</p>
+		<p class="txt3">LOGUE COM SUAS REDES SOCIAIS</p>
+		<div class="button3">
+			<a href="https://www.google.com.br"><img class="button2 btn2" src="img/login/buttonGoogle.svg"></a>
+			<a href="https://www.google.com.br"><img class="button2 btn2" src="img/login/buttonFacebook.svg"></a><br>
+			<a href="https://www.google.com.br"><img class="button2 btn2" src="img/login/buttonTwitter.svg"></a>
+			<a href="https://www.google.com.br"><img class="button2 btn2" src="img/login/buttonInstagram.svg"></a>
+		</div>
+	</div>
+</main><br>
+<footer>
+	<div id="footer">
+		<div class="clearfix">
+			<div class="boxFooter"style="float:left;width:25%">
+			<div>
+				<div style="vertical-align:50%">
+					<a class="txtAboutus">ABOUT US</a><br>
+					<a class="txtAboutus2">565 street, Batel - Curitiba/PR</a><br>
+					<a class="txtAboutus2">BRASIL-CEP:80050-235</a><br>
+					<a class="txtAboutus2">ggstore@ggstore.com.br</a><br>
+					<a class="txtAboutus2">CNPJ:99.999.999/0000-00</a>
+				</div>
+			</div>
+			</div>
+			<div class="boxFooter" style="float:left; width:50%">
+				<img class="boxCcard" src="img/common/visaCc.svg" alt="visacard">
+				<img class="boxCcard" src="img/common/mastercardCc.svg" alt="mastercard">
+				<img class="boxCcard" src="img/common/americanxCc.svg"alt="americanexpress">
+				<img class="boxCcard" src="img/common/boletoLogo.svg"alt="boleto">
+				<img class="boxCcard" src="img/common/pixLogo.svg" alt="pix"><br>
+				<img class="boxTrusted" src="img/common/trustedLogo.svg" style="height:50%"><br>
+				<img class="boxCopyright" src="img/common/copyright.svg" style="height:50%">
+			</div>
+			<div class="boxFooter" style="float:left; width:25%;display:inline">
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/youtubeLogo.svg" alt="youtube"></a>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/facebookLogo.svg" alt="facebook"></a>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/instagramLogo.svg" alt="instagram"></a>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/tiktokLogo.svg" alt="tiktok"></a><br>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/twitchLogo.svg" alt="twitch"></a>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/whatsappLogo.svg" alt="whatsapp"></a>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/vimeoLogo.svg" alt="vimeo"></a>
+				<a href="https://www.google.com.br"><img class="boxFooter2" src="img/common/rumbleLogo.svg" alt="rumble"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
